@@ -110,11 +110,25 @@ class LatihanScreen extends StatelessWidget {
                         )
                       ],
                     ),
-                    //ToDo: Baris Berisi Kotak
+                    SizedBox(height: 10,
+                    ),
+                    //ToDo: Baris Berisi Kontak
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         //telp : icon + text
+                        Expanded(
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Icon(Icons.call, color: Colors.white,
+                              ),
+                              SizedBox(width: 4,),
+                              Text("082186806208", style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ), 
+                        ),
                         //email : icon + text
                         //website : icon + text
                       ],
