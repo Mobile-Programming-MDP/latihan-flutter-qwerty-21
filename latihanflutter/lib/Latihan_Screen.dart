@@ -130,7 +130,19 @@ class LatihanScreen extends StatelessWidget {
                           ), 
                         ),
                         //email : icon + text
+                        Icon(Icons.email, color: Colors.white,
+                        ),
+                        SizedBox(width: 4,),
+                        Text("rahmatmaulanaakbar@mhs.mdp.ac.id", style: TextStyle(color: Colors.white),
+                        ),
                         //website : icon + text
+                        Icon(Icons.link, color: Colors.white,
+                        ),
+                        SizedBox(
+                          width: 4,
+                        ),
+                        Text("@ac.id", style: TextStyle(color: Colors.white),
+                        ),
                       ],
                     ),
                   ],
